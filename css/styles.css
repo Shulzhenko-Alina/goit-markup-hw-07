@@ -452,7 +452,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 }
 @media screen and (min-width: 1200px) {
 
-    .about-list {
+    .features-list {
         display: flex;
         column-gap: 24px;
 
@@ -677,6 +677,9 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         letter-spacing: 0.02em;
         color: var(--title-color);
         margin-bottom: 72px;
+    }
+    .customers-list {
+        width: 1128px;
     }
 }
 
