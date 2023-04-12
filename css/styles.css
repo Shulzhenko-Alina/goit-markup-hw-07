@@ -143,11 +143,12 @@ body {
     .header {
         padding-bottom: 24px;
     }
-}
+
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 }
 .mobile-menu-open {
     stroke: #2E2F42;
@@ -323,7 +324,7 @@ screen and (min-resolution: 2dppx) and (max-width: 768px){
     }
     .hero-title {
         font-weight: 700;
-        font-size: 56px;
+        font-size: 36px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         color: var(--acent-color);
@@ -438,6 +439,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .features-item {
         justify-content: space-between;
     }
+
 }
 @media screen and (max-width: 1200px) {
     .features-svg {
@@ -800,6 +802,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         margin-top: 16px;
         margin-right: auto;
         margin-left: auto;
+        display: block;
     }
 
 }
