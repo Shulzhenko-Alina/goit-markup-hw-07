@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 797px) {
+@media screen and (max-width: 768px) {
     .modal-window {
         width: 392px;
         height: 586px;
@@ -38,11 +38,11 @@
     }
 }
 
-@media screen and (min-width: 797px) {
+@media screen and (min-width: 768px) {
     .modal-window {
             position: absolute;
-            max-width: 408px;
-            max-height: 584px;
+            width: 408px;
+            height: 584px;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -58,6 +58,7 @@
             margin-bottom: 24px;
             margin-top: 16px;
         }
+        
 }
 .is-hidden.backdrop {
     visibility: hidden;
