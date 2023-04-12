@@ -241,6 +241,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: background-color var(--transition-duration);
     align-self: center;
+    border: none;
 }
 
 .modal-form-submit:hover,
