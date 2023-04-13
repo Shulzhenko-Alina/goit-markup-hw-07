@@ -2,7 +2,6 @@
 @media screen and (max-width: 768px) {
     .modal-window {
         width: 392px;
-        height: 586px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -30,8 +29,7 @@
     }
     .modal-window {
         width: 300px;
-        height: 586px;
-    }
+        }
     .modal-form-check-desc {
         margin-bottom: 10px;
         margin-top: 10px;
