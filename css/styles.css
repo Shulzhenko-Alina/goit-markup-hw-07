@@ -687,7 +687,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 }
 @media screen and (max-width: 320px) {
     .customers-item {
-        padding-bottom: 24px;
+        margin-bottom: 24px;
     }
     .customers-item:last-child{
         margin-bottom: 0;
@@ -695,7 +695,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 }
 @media screen and (max-width: 480px) {
     .customers-item {
-        padding-bottom: 24px;
+        margin-bottom: 24px;
     }
     .customers-item:last-child{
         margin-bottom: 0;
